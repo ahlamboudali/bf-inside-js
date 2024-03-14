@@ -1,5 +1,7 @@
 // #todo
 
+// #todo
+
 'use strict';
 
 console.log('-- begin --');
@@ -13,6 +15,7 @@ console.assert(Boolean(-1) === true, 'Test 3');
 console.assert(Boolean(0) === false, 'Test 4');
 
 console.assert(Boolean(1) === true, 'Test 5');
+
 
 console.assert(Boolean('-1') === false, 'Test 6');
 

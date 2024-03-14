@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
@@ -27,19 +25,19 @@ const _5_expect = 'asdf';
 const _5_actual = '' || 'asdf';
 console.assert(_5_actual === _5_expect, 'Test 5');
 
-const _6_expect = _;
+const _6_expect = 'asdf';
 const _6_actual = 'asdf' || '';
 console.assert(_6_actual === _6_expect, 'Test 6');
 
 const _7_expect = true;
-const _7_actual = _ || false;
+const _7_actual = true || false;
 console.assert(_7_actual === _7_expect, 'Test 7');
 
-const _8_expect = _;
+const _8_expect = undefined;
 const _8_actual = NaN || undefined;
 console.assert(_8_actual === _8_expect, 'Test 8');
 
-const _9_expect = _;
+const _9_expect = Infinity;
 const _9_actual = Infinity || 'asdf';
 console.assert(_9_actual === _9_expect, 'Test 9');
 
