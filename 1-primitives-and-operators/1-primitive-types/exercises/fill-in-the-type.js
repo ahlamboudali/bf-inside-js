@@ -13,7 +13,11 @@ console.log(typeof 4 === 'number', 'Test 3');
 
 console.log(typeof '4' === 'string', 'Test 4');
 
-console.log(typeof false === 'boolean', 'Test 5');
+
+
+
+console.log(typeof false ==='boolean', 'Test 5');
+
 
 console.log(typeof undefined === 'undefined', 'Test 6');
 
