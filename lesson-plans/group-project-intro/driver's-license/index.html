@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section>
+    <h2>Enter your name:</h2>
+    First name: <input id="first-name" type="text" />
+    <br />
+    Last name: <input id="last-name" type="text" />
+    <br />
+  </section>
+
+  <h2>Gender:</h2>
+  <label><input type="radio" name="gender" value="male"> Male</label><br>
+  <label><input type="radio" name="gender" value="female"> Female</label><br>
+
+  <h2>Age:</h2>
+  <label><input type="radio" name="age" value="lessThan18"> Less than 18</label><br>
+  <label><input type="radio" name="age" value="18AndAbove"> 18 and above</label><br><br>
+
+
+  <h2>Which type of driver's license do you want to pass?</h2>
+  <form>
+    <input type="radio" id="regular" name="license" value="regular">
+    <label for="regular">Regular Driver's License</label><br>
+    <input type="radio" id="commercial" name="license" value="commercial">
+    <label for="commercial">Commercial Driver's License</label><br>
+    <input type="radio" id="motorcycle" name="license" value="motorcycle">
+    <label for="motorcycle">Motorcycle Driver's License</label><br>
+  </form>
+
+
+  <hr />
+  <button id="submit">Submit</button>
+  <p id="message"></p>
+  <script src="./main.js" type="module"></script>
+</body>
+
+
+</html>
