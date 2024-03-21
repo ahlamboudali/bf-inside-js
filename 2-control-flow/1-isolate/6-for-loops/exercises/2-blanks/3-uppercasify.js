@@ -17,9 +17,9 @@ console.log('lowerCaseString:', lowerCaseString);
 
 let upperCaseString = '';
 
-for (_; _; _) {
-  const nextLetter = lowerCaseString[_];
-  const letterUpperCased = _._();
+for (let i = 0; i < lowerCaseString.length; i++) {
+  const nextLetter = lowerCaseString[i];
+ const letterUpperCased = nextLetter.toUpperCase();
   upperCaseString += _;
 
   console.log(_); // your stepper variable

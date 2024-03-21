@@ -15,8 +15,13 @@ console.log('originalString:', originalString);
 
 let reverseUpperCase = '';
 
-for (_; _; _) {
-  // a blank canvas :)
+for (let i = originalString.length - 1; i >= 0; i--) {
+  const nextLetter = originalString[i];
+  const letterUpperCased = nextLetter.toUpperCase();
+  reverseUpperCase += letterUpperCased;
+
+  console.log('i:', i);
+  console.log('reverseUpperCase:', reverseUpperCase);
 }
 
 console.assert(
