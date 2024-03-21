@@ -8,12 +8,12 @@ const word = 'pitsicola';
 
 let index = 0;
 let logThisOne = true;
-while (index < _._) {
-  index += 1;
+while (index < word.length - 1) {
+  index++;
 
   logThisOne = !logThisOne;
-  if (!_) {
-    _;
+  if (logThisOne) {
+    continue;
   }
 
   const nextLetter = word[index];

@@ -25,7 +25,7 @@ const holiday = 'winter solstice';
 const message = '_' + holiday;
 
 let tweet = '';
-for (let daysToHoliday = 14; _; _) {
+for (let daysToHoliday = 14; daysToHoliday >= 0; --) {
   tweet = daysToHoliday + message;
   console.log(tweet);
 }

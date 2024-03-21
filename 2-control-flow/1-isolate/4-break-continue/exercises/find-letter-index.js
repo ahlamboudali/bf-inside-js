@@ -13,7 +13,7 @@ while (true) {
   console.log(index + ': ' + nextLetter);
 
   if (nextLetter === targetLetter) {
-    _;
+    break;
   }
 
   index += 1;
