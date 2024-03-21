@@ -16,11 +16,12 @@ console.assert(Boolean(0) === false, 'Test 4');
 
 console.assert(Boolean(1) === true, 'Test 5');
 
-console.assert(Boolean('-1') === true, 'Test 6');
+
+console.assert(Boolean('-1') === false, 'Test 6');
 
 console.assert(Boolean('0') === true, 'Test 7');
 
-console.assert(Boolean('') === false, 'Test 8');
+console.assert(Boolean('') === true, 'Test 8');
 
 console.assert(Boolean(NaN) === false, 'Test 9');
 
