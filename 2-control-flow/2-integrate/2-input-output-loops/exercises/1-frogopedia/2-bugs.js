@@ -10,7 +10,7 @@
 */
 
 let userInput = '';
-let inputIsAboutFrogs = true;
+let inputIsAboutFrogs = false;
 while (!inputIsAboutFrogs) {
   userInput = prompt('tell me something about frogs');
 
@@ -19,7 +19,7 @@ while (!inputIsAboutFrogs) {
   }
   // regular expression: this works!
   else if (/frog/i.test(userInput) === true) {
-    inputIsAboutFrogs = false;
+    inputIsAboutFrogs = true;
   } else {
     alert('nope, not about frogs.  try again.');
   }
