@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* look out for:
@@ -32,12 +30,13 @@ while (true) {
 
   if (userInput.toLowerCase() === 'done') {
     stillEnteringNumbers = false;
+    break;
   } else {
     const nextNumber = Number(userInput);
 
-    if (Number.IsNaN(nextNumber)) {
+    if (Number.isNaN(nextNumber)) {
       alert('"' + userInput + '" is not a number, it has been ignored');
-      break;
+      continue;
     }
 
     sum = sum + nextNumber;
