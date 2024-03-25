@@ -23,7 +23,14 @@ const checkIt = (text = '', cb) => {
  * @param {string} [str=''] - The string to check.
  * @returns {boolean} Whether or not the string is a palindrome.
  */
-const isPalindrome = (str = '') => {};
+const isPalindrome = (str = '') => {
+  const reversedStr = str.split('').reverse().join('');
+  if (str === reversedStr) {
+    return true;
+  } else {
+    return false; 
+};
+}
 
 const check1 = checkIt('RacEcaR', isPalindrome);
 console.assert(check1 === 'yes', 'Test 1');

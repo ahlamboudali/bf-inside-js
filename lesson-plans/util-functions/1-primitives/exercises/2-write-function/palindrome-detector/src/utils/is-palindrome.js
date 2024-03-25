@@ -6,6 +6,7 @@
  * @returns {boolean} Is the string a palindrome?
  */
 export const isPalindrome = (toCheck = '') => {
+
   // Convert the string to lowercase
   const lowerCaseString = toCheck.toLowerCase();
   
@@ -14,4 +15,9 @@ export const isPalindrome = (toCheck = '') => {
   
   // Check if the clean string is equal to its reverse
   return cleanString === cleanString.split('').reverse().join('');
+
+  const lowerCaseString = toCheck.toLowerCase();
+  const cleanString = lowerCaseString.replace(/[^a-z0-9]/g, '');
+  return cleanString === cleanString.split('').reverse().join('');
+
 };
