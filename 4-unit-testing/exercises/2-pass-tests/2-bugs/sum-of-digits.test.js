@@ -19,7 +19,7 @@ const sumOfDigits = (toSum = 0) => {
     }
   }
 
-  return toSum > 0 ? sum : sum;
+  return toSum >= 0 ? sum : -sum;
 };
 
 describe('sumOfDigits: sums the digits in a number', () => {

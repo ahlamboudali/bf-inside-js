@@ -9,7 +9,9 @@
  * @param {number} [y=0] - The right number.
  * @returns {number} The sum of x and y.
  */
-__;
+const sum = (x = 0, y = 0) {
+  return x + y;
+};
 
 describe('', () => {
   describe('', () => {
