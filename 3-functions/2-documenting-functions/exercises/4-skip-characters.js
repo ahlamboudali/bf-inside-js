@@ -5,7 +5,9 @@
 console.log('-- begin --');
 
 /**
- *
+ * param {string} [text = ''] the text to skip
+ * param {number} [toSkip = 1] number of character to skip
+ * returns {string} the skipped string
  */
 const skipCharacters = (text = '', toSkip = 1) => {
   if (toSkip < 1) {

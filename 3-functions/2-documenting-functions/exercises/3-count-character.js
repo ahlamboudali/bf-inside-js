@@ -5,8 +5,11 @@
 console.log('-- begin --');
 
 /**
- *
+ * param {string} [text = ''] The text in which to count occurrences.
+ * param {string} [toCount = ''] The character to count occurrences of.
+ * returns {number} The number of occurrences of the specified character in the text.
  */
+ 
 const countCharacter = (text = '', toCount = '') => {
   if (toCount.length !== 1) {
     return -1;

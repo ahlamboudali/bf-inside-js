@@ -7,9 +7,10 @@ console.log('-- begin --');
 /**
  * _
  *
- * @_ {_} [_=_] - _
- * @_ {_} [_=_] - _
- * @_ {_} _
+ * @param {string} [text=''] The text to be evaluated
+ * @param {number} [cutoff=0] the compared length
+ * @returns {string} Returns 'long' if the length of the text is greater than or equal to the cutoff length, otherwise 'short'.
+ */
  */
 const longOrShort = (text = '', cutoff = 0) => {
   if (text.length < cutoff) {

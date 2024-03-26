@@ -6,7 +6,7 @@
 
   Colt Steele explains: https://www.youtube.com/watch?v=W8AeMrVtFLY
 */
-
+debugger;
 let callStackRoot = 0;
 
 const func1 = (depth) => {
