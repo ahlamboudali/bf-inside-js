@@ -7,8 +7,8 @@ console.log('-- begin --');
 /**
  * _
  *
- * @_ {_} [_=_] - _
- * @_ {_}  _
+ * @param {string} [toCheck = ''] - Checks if a given string is a palindrome.
+ * @return {boolean}  Returns true if the string is a palindrome, otherwise false.
  */
 const isPalindrome = (toCheck = '') => {
   let reversed = '';
